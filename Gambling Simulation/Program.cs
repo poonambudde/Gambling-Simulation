@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Gambling_Simulation
 {
@@ -8,9 +8,8 @@ namespace Gambling_Simulation
         {
             Console.WriteLine("Welcome to gambling simulator");
 
-            Gambler.GamblerWinOrLoose();
-
+            Gambler gambler = new Gambler();
+            gambler.GamblerWinOrLoose();
         }
     }
 }
-
