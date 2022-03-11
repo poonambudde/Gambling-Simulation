@@ -24,7 +24,7 @@ namespace Gambling_Simulation
                     totalAmount = totalAmount + BET;
                     break;
             }
-            Console.WriteLine("LeftAmount is " + totalAmount);
+            Console.WriteLine("TotalAmount is " + totalAmount);
         }
     }
 }
