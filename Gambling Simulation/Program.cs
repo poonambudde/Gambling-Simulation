@@ -8,7 +8,8 @@ namespace Gambling_Simulation
         {
             Console.WriteLine("Welcome to gambling simulator");
 
-            Gambler.GamblerWinOrLoose();
+            Gambler gambler = new Gambler();
+            gambler.GamblerWinOrLoose();
         }
     }
 }
