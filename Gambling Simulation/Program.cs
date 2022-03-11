@@ -7,9 +7,6 @@ namespace Gambling_Simulation
         static void Main(string[] arg)
         {
             Console.WriteLine("Welcome to Gambler Program");
-            
-            int startingTotalAmount = 100;
-            int betsPerGame = 1;
         }
     }
 }
