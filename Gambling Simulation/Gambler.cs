@@ -12,6 +12,7 @@ namespace Gambling_Simulation
         public static void GamblerWinOrLoose()
         {
             Random random = new Random();
+
             int check = random.Next(0, 2);
             if (check == 1)
             {

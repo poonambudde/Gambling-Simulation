@@ -9,6 +9,7 @@ namespace Gambling_Simulation
             Console.WriteLine("Welcome to gambling simulator");
 
             Gambler.GamblerWinOrLoose();
+
         }
     }
 }
